@@ -1,0 +1,99 @@
+
+     body{
+         padding: 0px;
+         margin: 0px;
+         background:url('b.jpg');
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }   
+     .left{
+         display: inline-block;
+         position: absolute;
+         border: 4px solid red;
+         left: 60px;
+         top: 20px;
+         color: white;
+         font-size: 30px;
+         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     }
+     .left:hover {
+         background-color: grey;
+         color:orange;
+         
+     }
+     .mid{
+         display: block;
+         width: 36%;
+         margin: 30px auto;
+         border: 4px solid green;
+     }
+     .right{
+         display: inline-block;
+         position: absolute;
+         right: 36px;
+         top: 20px;
+         font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+         font-size: 5px;
+     }
+     .navbar {display: inline-block;
+
+     }
+     .navbar li{
+         display: inline-block;
+         font-size: 15px;
+     }
+     .navbar li a {
+         color:white;
+         text-decoration: none;
+         padding: 34px 23px;
+     }
+    .navbar li a:hover,
+    .navbar li a.active {text-decoration: underline;
+    color:grey;
+    
+    }
+    .btn {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        margin: 0px 9px;
+        background-color: black;
+        color:white ;
+        padding: 4px 12px;
+        border: 3px solid green;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor:pointer;
+    }
+    .btn:hover {
+        background-color: red;
+        color: rgb(17, 16, 16);
+    }
+    .container {
+        border: 3px solid white;
+        margin: auto;
+        padding: 75px;
+        width: 35%;
+        border-radius: 30px;
+    }
+    .container h1 {
+        text-align: center;
+        color:red;
+    }
+    .container button{
+        display:block;
+        padding: auto;
+        margin: auto;
+        font-size: 15px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        border: 3px solid white;
+        border-radius: 5px;
+    }
+    form input {
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        display: block;
+        padding: auto;
+        margin: auto;
+        border: 3px solid black;
+        font-size: 20px;
+        border-radius: 8px;
+    }
+    
